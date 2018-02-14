@@ -3,6 +3,10 @@
    <description></description>
    <name>TC01_Verify Service Uptime</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Define the service URL
+Intialize the class requestObject by creating an object
+Set the Variables
+Call the Sendrequest Method
+This returns the status code of the url / service</comment>
    <testCaseGuid>292c34fe-c1b2-44a4-83ce-148628afb76c</testCaseGuid>
 </TestCaseEntity>

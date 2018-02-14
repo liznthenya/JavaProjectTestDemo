@@ -32,16 +32,13 @@ WebUI.comment("Intialize the class requestObject by creating an object")
 RequestObject ro = new RequestObject()
 
 WebUI.comment("Set the Variables")
-
 ro.setRestRequestMethod('GET')
-
 ro.setRestUrl(url)
 
 WebUI.comment("Call the Sendrequest Method")
 ResponseObject resp = WSBuiltInKeywords.sendRequest(ro)
 
-WebUI.comment("This returns the status code of the url / service")
-
+WebUI.comment("This returns the status code of the url / service - status code=200")
 println(resp.getStatusCode())
 
 WebUI.verifyEqual(200, resp.getStatusCode(), FailureHandling.STOP_ON_FAILURE)

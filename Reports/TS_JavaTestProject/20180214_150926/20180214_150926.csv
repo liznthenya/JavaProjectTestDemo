@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_JavaTestProject,,,2018-02-14 15:09:31,2018-02-14 15:09:37,5.194s,FAILED
+,,,,,,
+Test Cases/TC01_Verify Service Uptime,,,2018-02-14 15:09:32,2018-02-14 15:09:36,4.705s,FAILED
+comment,,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.070s,PASSED
+"Statement - url = ""http://lttech1550.safaricom.net:9090/status""",,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.001s,PASSED
+comment,,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.002s,PASSED
+Statement - ro = new com.kms.katalon.core.testobject.RequestObject(),,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.010s,PASSED
+comment,,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.005s,PASSED
+"Statement - ro.setRestRequestMethod(""GET"")",,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.002s,PASSED
+Statement - ro.setRestUrl(url),,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.002s,PASSED
+comment,,,2018-02-14 15:09:33,2018-02-14 15:09:33,0.004s,PASSED
+Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(ro),,,2018-02-14 15:09:33,2018-02-14 15:09:36,3.236s,FAILED

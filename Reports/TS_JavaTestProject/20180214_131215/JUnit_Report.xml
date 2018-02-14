@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_JavaTestProject" time="2" tests="0" failures="1" errors="0">
+   <testsuite name="TS_JavaTestProject" tests="0" failures="1" errors="0" time="2" timestamp="2018-02-14 13:12:17" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/TS_JavaTestProject">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Interview\\JavaTestProject\\Reports\\TS_JavaTestProject\\20180214_131215"/>
+         <property name="logFiles" value="D:\\QA\\Interview\\JavaTestProject\\Reports\\TS_JavaTestProject\\20180214_131215\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="hostAddress" value="192.168.43.89"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TC01_Verify Service Uptime" classname="Test Cases/TC01_Verify Service Uptime" status="FAILED">
+         <failure type="FAILED" message="Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)"/>
+         <system-out><![CDATA[2018-02-14 13:12:17 - [TEST_CASE][FAILED] - Test Cases/TC01_Verify Service Uptime: Test Cases/TC01_Verify Service Uptime FAILED because (of) Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - comment: Define the service URL
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - Statement - url = "http://lttech1550.safaricom.net:9090/status": null
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - comment: Intialize the class requestObject by creating an object
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - Statement - ro = new com.kms.katalon.core.testobject.RequestObject(): null
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - comment: Set the Variables
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - Statement - ro.setRestRequestMethod("GET"): null
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - Statement - ro.setRestUrl(url): null
+
+2018-02-14 13:12:18 - [TEST_STEP][PASSED] - comment: Call the Sendrequest Method
+
+2018-02-14 13:12:18 - [TEST_STEP][FAILED] - Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(ro): Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)
+
+2018-02-14 13:12:19 - [MESSAGE][FAILED] - Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)]]></system-out>
+         <system-err><![CDATA[2018-02-14 13:12:17 - [TEST_CASE][FAILED] - Test Cases/TC01_Verify Service Uptime: Test Cases/TC01_Verify Service Uptime FAILED because (of) Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-14 13:12:17 - [TEST_SUITE][FAILED] - TS_JavaTestProject: Test Cases/TC01_Verify Service Uptime FAILED because (of) Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)]]></system-out>
+      <system-err><![CDATA[2018-02-14 13:12:17 - [TEST_SUITE][FAILED] - TS_JavaTestProject: Test Cases/TC01_Verify Service Uptime FAILED because (of) Unable to send request (Root cause: java.net.ConnectException: Connection refused: connect)]]></system-err>
+   </testsuite>
+</testsuites>

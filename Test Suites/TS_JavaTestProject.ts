@@ -4,7 +4,7 @@
    <name>TS_JavaTestProject</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-14T23:03:05</lastRun>
+   <lastRun>2018-02-15T11:13:07</lastRun>
    <mailRecipient>enguli@safaricom.co.ke;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -16,4 +16,9 @@ import groovy.transform.CompileStatic
 @CompileStatic
 public class GlobalVariable {
 	 
+    /**
+     * <p></p>
+     */
+	public static Object G_URL = 'http://lttech1550.safaricom.net:9090/status'
+	 
 }

@@ -25,7 +25,7 @@ import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 
 WebUI.comment("Define the service URL")
 
-String url = 'http://lttech1550.safaricom.net:9090/status'
+String url = GlobalVariable.G_URL
 
 WebUI.comment("Intialize the class requestObject by creating an object")
 

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_JavaTestProject,,,2018-02-15 09:11:17,2018-02-15 09:11:20,3.524s,PASSED
+,,,,,,
+Test Cases/TC01_Verify Service Uptime,,,2018-02-15 09:11:17,2018-02-15 09:11:19,1.608s,PASSED
+comment,,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.052s,PASSED
+Statement - url = G_URL,,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.005s,PASSED
+comment,,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.002s,PASSED
+Statement - ro = new com.kms.katalon.core.testobject.RequestObject(),,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.010s,PASSED
+comment,,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.003s,PASSED
+"Statement - ro.setRestRequestMethod(""GET"")",,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.002s,PASSED
+Statement - ro.setRestUrl(url),,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.003s,PASSED
+comment,,,2018-02-15 09:11:17,2018-02-15 09:11:17,0.000s,PASSED
+Statement - resp = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(ro),,,2018-02-15 09:11:17,2018-02-15 09:11:18,0.917s,PASSED
+comment,,,2018-02-15 09:11:18,2018-02-15 09:11:18,0.005s,PASSED
+Statement - println(resp.getStatusCode()),,,2018-02-15 09:11:18,2018-02-15 09:11:18,0.060s,PASSED
+verifyEqual,,,2018-02-15 09:11:18,2018-02-15 09:11:19,0.025s,PASSED

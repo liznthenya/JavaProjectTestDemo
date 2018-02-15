@@ -2,4 +2,9 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://lttech1550.safaricom.net:9090/status'</initValue>
+      <name>G_URL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

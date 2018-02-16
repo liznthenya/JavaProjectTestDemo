@@ -38,7 +38,7 @@ ro.setRestUrl(url)
 WebUI.comment("Call the Sendrequest Method")
 ResponseObject resp = WSBuiltInKeywords.sendRequest(ro)
 
-WebUI.comment("This returns the status code of the url / service - status code=200")
+WebUI.comment("This returns the status code of the url / service - verify status code=200")
 println(resp.getStatusCode())
 
 WebUI.verifyEqual(200, resp.getStatusCode(), FailureHandling.STOP_ON_FAILURE)
